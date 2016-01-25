@@ -4,7 +4,7 @@
 " License:      WTFPL
 
 " Bail out if syntax is already loaded
-"if exists('b:current_syntex') && b:current_syntex == 'cfscript'
+"if exists('b:current_syntax') && b:current_syntax == 'cfscript'
 "  finish
 "endif
 
@@ -134,6 +134,6 @@ if version >= 508
 endif
 
 " Set the syntax
-if !exists('b:current_syntex')
-  let b:current_syntex = 'cfscript'
+if !exists('b:current_syntax')
+  let b:current_syntax = 'cfscript'
 endif
