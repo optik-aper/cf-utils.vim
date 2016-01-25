@@ -40,7 +40,7 @@ syn keyword cfBoolean       true false
 
 " Scopes
 syn keyword cfScope         application arguments attributes caller cgi client
-syn keyword cfScope         cookie flash form request server session this
+syn keyword cfScope         cookie flash form request server session this local
 syn keyword cfScope         thread url variables
 
 " Conditionals
